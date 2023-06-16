@@ -1,0 +1,77 @@
+@font-face {
+    font-family: MyCustomFont; /* The name you want to assign to your font */
+    src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype'); /* URL to your font file */
+  }
+  *{
+     font-family: 'Futura Bk BT';;
+  }
+.heroSection{
+    background: url('../images/aboutHero.png');
+    background-size: contain;
+}
+.navItem a{
+    list-style: none;
+    color: #fff;
+}
+.requestBtn{
+    border-radius: 0px;
+    background-color: #9947E2;
+    /* width: 224px; */
+height: 100%;
+position: absolute;
+top: 0;
+right: -10px;
+font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #fff;
+}
+.myNvabar{
+    position: relative;
+}
+.aboutText{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 69px;
+/* identical to box height, or 172% */
+
+letter-spacing: 0.1em;
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+padding-bottom: 10rem;
+}
+.fos1{
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    /* Med Wte */
+    
+    color: rgba(255, 255, 255, 0.57);
+}
+.bg1{
+    background-color: #1E201F;
+    margin-top:-8px
+}
+.fos2{
+    font-family: 'Futura Hv BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    
+    /* High Wte */
+    
+    color: rgba(255, 255, 255, 0.87);
+}
