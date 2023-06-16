@@ -1,0 +1,23 @@
+@font-face {
+    font-family: MyCustomFont !important;
+    /* The name you want to assign to your font */
+    src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype') !important;
+    /* URL to your font file */
+}
+
+.footer__bg{
+    background-color: #161817;
+}
+
+.footer__col h6{
+    color:  rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__col p {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
