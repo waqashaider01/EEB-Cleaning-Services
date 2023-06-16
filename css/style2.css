@@ -162,3 +162,33 @@ border-radius: 10px;
         width: 100%;
     }
 }
+/* join our team css */
+.viewJob{
+    background: #9947E2;
+border-radius: 10px;
+color: #fff;
+}
+.jobText{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 69px;
+/* identical to box height, or 172% */
+
+letter-spacing: 0.1em;
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+
+}
+.pImg{
+    width: 100%;
+}
+/* service page css */
+.sbg1{
+    background: url('../images/servicebg.png');
+    background-size: cover;
+
+}
