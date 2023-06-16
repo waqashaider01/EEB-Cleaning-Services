@@ -99,3 +99,49 @@
 .footer__social i:hover {
     color: #9947E2;
 }
+
+.footer__row__2 ul {
+    display: flex;
+    padding-left: 0;
+    gap: 1rem;
+}
+
+.footer__row__2 ul li {
+    list-style-type: none;
+}
+
+.footer__row__2 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.footer__row__2 {
+    color: rgba(255, 255, 255, 0.57);
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.57);
+}
+
+@media (min-width: 320px) and (max-width: 515px) {
+    .vr {
+        display: none;
+    }
+
+    .footer__row__2 ul {
+        color: rgba(255, 255, 255, 0.57);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: left; */
+    }
+
+    .footer__row__2 {
+        justify-content: left;
+    }
+
+    .footer__row__2 ul li p {
+        margin-top: 12px !important;
+    }
+}
