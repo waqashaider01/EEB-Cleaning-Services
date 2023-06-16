@@ -64,6 +64,10 @@ padding-bottom: 10rem;
     background-color: #1E201F;
     margin-top:-8px
 }
+.bg3{
+    background-color: #1E201F;
+    margin-top:-16px
+}
 .fos2{
     font-family: 'Futura Hv BT';
     font-style: normal;
@@ -74,4 +78,87 @@ padding-bottom: 10rem;
     /* High Wte */
     
     color: rgba(255, 255, 255, 0.87);
+}
+.aImg{
+    border-radius: 10px;
+}
+.bg2{
+    background-color: #161817;
+    margin-top:-8px
+}
+.fos3{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+/* Med Wte */
+
+color: rgba(255, 255, 255, 0.57);
+}
+.fos4{
+    
+font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+
+
+}
+.fos5{
+    font-family: 'Futura Lt BT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+/* Med Wte */
+
+color: rgba(255, 255, 255, 0.57);
+}
+.bgImage{
+    background: url('../images/quoteImg.png');
+    background-size: cover;
+    margin-top: -8px;
+}
+.fos6{
+    font-family: 'Futura Bk BT';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.25em;
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+}
+.quoteBtn{
+    background: #FFFFFF;
+border-radius: 10px;
+}
+@media only screen and (max-width: 768px){
+	/*Big smartphones [426px -> 600px]*/
+    .requestBtn{
+        position: relative;
+        white-space: nowrap;
+    }
+    .aImg{
+        width: 100%;
+    }
 }
