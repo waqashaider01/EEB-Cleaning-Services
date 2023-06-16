@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'Futura Hv BT';
-    /* The name you want to assign to your font */
     src: url('../Futura-Book-Font/FuturaRegular.otf') format('truetype') !important;
-    /* URL to your font file */
 }
 
 * {
