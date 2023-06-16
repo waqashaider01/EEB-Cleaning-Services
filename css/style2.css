@@ -192,3 +192,78 @@ color: rgba(255, 255, 255, 0.87);
     background-size: cover;
 
 }
+/* contact page css */
+.contactBg{
+    background: url('../images/contactbg.png');
+    background-size: cover; 
+}
+.fos8{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+}
+.gCard{
+    background: #F9F9F9;
+border-radius: 10px;
+}
+.fos9{
+    font-family: 'Futura Md BT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* High Blk */
+
+color: rgba(0, 0, 0, 0.87);
+}
+.fos10{
+    font-family: 'Futura Lt BT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* High Blk */
+
+color: rgba(0, 0, 0, 0.87);
+}
+.fos11{
+    /* Head */
+
+font-family: 'Futura Hv BT';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* High Wte */
+
+color: rgba(255, 255, 255, 0.87);
+}
+.cInput{
+    background: #1E201F;
+border-radius: 10px;
+border: none;
+}
+.subBtn{
+    background: #4072EA;
+border-radius: 10px;
+color:#fff;
+font-weight: 400;
+}
