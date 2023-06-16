@@ -1,16 +1,20 @@
 @font-face {
-    font-family: MyCustomFont !important;
+    font-family: 'Futura Hv BT';
     /* The name you want to assign to your font */
-    src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype') !important;
+    src: url('../Futura-Book-Font/FuturaRegular.otf') format('truetype') !important;
     /* URL to your font file */
 }
 
-.footer__bg{
+* {
+    font-family: 'Futura Hv BT';
+}
+
+.footer__bg {
     background-color: #161817;
 }
 
-.footer__col h6{
-    color:  rgba(255, 255, 255, 0.87);
+.footer__col h6 {
+    color: rgba(255, 255, 255, 0.87);
     font-weight: 400;
     font-size: 20px;
 }
@@ -20,4 +24,78 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+}
+
+.footer__col a {
+    text-decoration: none;
+}
+
+.website__logo {
+    background-color: #ECECEC;
+    color: rgba(255, 255, 255, 0.57);
+    opacity: 0.5;
+}
+
+.footer__col__img {
+    width: 100%;
+}
+
+.footer__col__img img {
+    width: 40%;
+    /* object-fit: cover; */
+}
+
+.footer__button {
+    background: #9947E2;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer__col a:hover {
+    background: rgba(255, 255, 255, 0.87) !important;
+    color: #9947E2 !important;
+}
+
+.footer__col3 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.footer__col3 ul li a:hover {
+    color: #9947E2 !important;
+    background: none !important;
+}
+
+.footer__col3 ul li {
+    list-style-type: none;
+}
+
+.footer__col3 li:not(:last-child) {
+    padding-bottom: .5rem !important;
+}
+
+.footer__col3 ul {
+    padding-left: 0;
+}
+
+.footer__col3 h6 {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__social i {
+    color: rgba(255, 255, 255, 0.57);
+    font-size: 20px;
+}
+
+.footer__social i:hover {
+    color: #9947E2;
 }
