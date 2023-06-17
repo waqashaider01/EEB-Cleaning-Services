@@ -44,8 +44,8 @@ body {
 }
 
 .footer__col__img img {
-    width: 40%;
-    /* object-fit: cover; */
+    width: 80%;
+    height: 111px;
 }
 
 .footer__button {
@@ -401,4 +401,13 @@ hr {
         font-size: 16px;
         color: rgba(255, 255, 255, 0.57);
     }
+}
+
+
+.column-gap {
+    margin-right: 2rem;
+}
+
+.column-gap:last-child {
+    margin-right: 0;
 }
