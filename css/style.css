@@ -256,6 +256,97 @@ hr {
     color: rgba(255, 255, 255, 0.87);
 }
 
+.form___select {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+    background: #161817;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-image: url(/images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.form___select:focus {
+    border-color: #161817;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form___control {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.57);
+    background-color: #161817;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.form-control:focus {
+    color: rgba(255, 255, 255, 0.57);
+    background-color: #161817;
+    border-color: #161817;
+    outline: 0;
+    box-shadow: none;
+}
+
+.section__heading__3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form___select {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+    background: #161817;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-image: url(/images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.form__button {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.form__btn__1 {
+    background: #9947E2;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-color: #9947E2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__btn__2 {
+    background: #4072EA;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border-color: #4072EA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.57);
+}
+
 @media screen and (max-width: 992px) {
     .form__check {
         border-width: 1px 1px 1px 1px;
