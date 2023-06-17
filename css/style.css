@@ -7,6 +7,11 @@
     font-family: 'Futura Hv BT';
 }
 
+body {
+    background-color: #1E201F !important;
+}
+
+/* --------------------------------FOOTER-------------------------- */
 .footer__bg {
     background-color: #161817;
 }
@@ -141,5 +146,168 @@ hr {
 
     .footer__row__2 ul li p {
         margin-top: 12px !important;
+    }
+}
+
+/* --------------------------------GET A QUOTE----------------------- */
+
+.section__heading h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.section__heading p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form__check {
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__11 {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__12 {
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__14 {
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__15 {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__13 {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__input[type=checkbox] {
+    border-radius: 0px !important;
+}
+
+.form__check__input:focus {
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form__check__input:checked {
+    background-color: white;
+    border-color: white;
+}
+
+.form__check__input {
+    background-color: #1e1d1d;
+    border: 1.5px solid rgba(255, 255, 255, 0.38);
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-image: url(/images/check.png);
+}
+
+.section__heading__2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.section__heading__2 span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #3531b1 !important;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+@media screen and (max-width: 992px) {
+    .form__check {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__11 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__12 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__13 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__14 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__15 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
     }
 }
