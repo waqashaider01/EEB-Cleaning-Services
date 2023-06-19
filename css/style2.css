@@ -4,12 +4,13 @@
     src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype');
     /* URL to your font file */
 }
+
 body {
     background: #161817 !important;
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.dropdown_bg_clr{
+.dropdown_bg_clr {
     background: #161817 !important;
 }
 
@@ -19,8 +20,8 @@ body {
 }
 
 .heroSection {
-    background: url('../images/aboutHero.png');
-    background-size: contain;
+    /* background: url('../images/aboutHero.png');
+    background-size: contain; */
 }
 
 .navItem a {
@@ -28,11 +29,11 @@ body {
     color: #fff;
 }
 
-.navItem a:hover{
-        color: rgba(255, 255, 255, 0.87);
+.navItem a:hover {
+    color: rgba(255, 255, 255, 0.87);
 }
 
-.navItem a:active{
+.navItem a:active {
     color: #9747FF;
 }
 
@@ -52,7 +53,7 @@ body {
     color: #fff;
 }
 
-.requestBtn:hover{
+.requestBtn:hover {
     background: #B21490;
     color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
@@ -195,7 +196,8 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
 }
-.quoteBtn:hover{
+
+.quoteBtn:hover {
     background: #B21490;
     color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
@@ -221,7 +223,7 @@ body {
     color: #fff;
 }
 
-.viewJob:hover{
+.viewJob:hover {
     background: #B21490;
     color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
@@ -336,7 +338,8 @@ body {
     color: #fff;
     font-weight: 400;
 }
-.subBtn:hover{
+
+.subBtn:hover {
     background: #B21490;
     color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
@@ -403,7 +406,8 @@ body {
     height: 41px;
     border: none;
 }
-.get_a_quote_btn:hover{
+
+.get_a_quote_btn:hover {
     background: #B21490;
     color: rgba(255, 255, 255, 0.87);
     transition: 0.3s;
