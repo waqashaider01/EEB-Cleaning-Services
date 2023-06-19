@@ -1,0 +1,447 @@
+@font-face {
+    font-family: MyCustomFont;
+    /* The name you want to assign to your font */
+    src: url('../fonts/Futura\ Book\ Regular.otf') format('truetype');
+    /* URL to your font file */
+}
+body {
+    background: #161817 !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.dropdown_bg_clr{
+    background: #161817 !important;
+}
+
+* {
+    font-family: 'Futura Bk BT';
+    ;
+}
+
+.heroSection {
+    background: url('../images/aboutHero.png');
+    background-size: contain;
+}
+
+.navItem a {
+    list-style: none;
+    color: #fff;
+}
+
+.navItem a:hover{
+        color: rgba(255, 255, 255, 0.87);
+}
+
+.navItem a:active{
+    color: #9747FF;
+}
+
+.requestBtn {
+    border-radius: 0px;
+    background-color: #9947E2;
+    /* width: 224px; */
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.requestBtn:hover{
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+.myNvabar {
+    position: relative;
+}
+
+.aboutText {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 69px;
+    /* identical to box height, or 172% */
+
+    letter-spacing: 0.1em;
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+    padding-bottom: 10rem;
+}
+
+.fos1 {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    /* Med Wte */
+
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.bg1 {
+    background-color: #1E201F;
+    margin-top: -8px
+}
+
+.bg3 {
+    background-color: #1E201F;
+    margin-top: -16px
+}
+
+.fos2 {
+    font-family: 'Futura Hv BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.aImg {
+    border-radius: 10px;
+}
+
+.bg2 {
+    background-color: #161817;
+    margin-top: -8px
+}
+
+.fos3 {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    /* Med Wte */
+
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.fos4 {
+
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+
+
+}
+
+.fos5 {
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Med Wte */
+
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.bgImage {
+    background: url('../images/quoteImg.png');
+    background-size: cover;
+    margin-top: -8px;
+}
+
+.fos6 {
+    font-family: 'Futura Bk BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.25em;
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.quoteBtn {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.quoteBtn:hover{
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .requestBtn {
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .aImg {
+        width: 100%;
+    }
+}
+
+/* join our team css */
+.viewJob {
+    background: #9947E2;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.viewJob:hover{
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+.jobText {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 69px;
+    /* identical to box height, or 172% */
+
+    letter-spacing: 0.1em;
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+
+}
+
+.pImg {
+    width: 100%;
+}
+
+/* service page css */
+.sbg1 {
+    background: url('../images/servicebg.png');
+    background-size: cover;
+
+}
+
+/* contact page css */
+.contactBg {
+    background: url('../images/contactbg.png');
+    background-size: cover;
+}
+
+.fos8 {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.gCard {
+    background: #F9F9F9;
+    border-radius: 10px;
+}
+
+.fos9 {
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* High Blk */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fos10 {
+    font-family: 'Futura Lt BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* High Blk */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fos11 {
+    /* Head */
+
+    font-family: 'Futura Hv BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* High Wte */
+
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.cInput {
+    background: #1E201F;
+    border-radius: 10px;
+    border: none;
+}
+
+.subBtn {
+    background: #4072EA;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 400;
+}
+.subBtn:hover{
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+/* ======Header Logo css start========== */
+.eeb_logo {
+    width: 95px;
+}
+
+
+/* ======Header Logo css End========== */
+
+/* ========= Footer About Us Start ======= */
+.footer_title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.my_logo {
+    width: 182px;
+    height: 67px;
+    background: #ECECEC;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+.footer_img_gallery {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.footer_card {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.get_a_quote_btn {
+    background: #9947E2;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 41px;
+    border: none;
+}
+.get_a_quote_btn:hover{
+    background: #B21490;
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+.footer_navbar nav a {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.footer_navbar nav a:hover {
+    color: #9747FF;
+    transition: 0.3s;
+}
+
+.my_btm_bdr {
+    margin: 0px 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.footer_copy_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+/* ========= Footer About Us End ======= */
+
+/* ======== Footer Meida Quiry 520px ========== */
+@media screen and (max-width:520px) {
+
+    .footer_img_gallery {
+        justify-content: start;
+    }
+
+}

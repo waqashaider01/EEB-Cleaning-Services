@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../Futura-Book-Font/FuturaRegular.otf') format('truetype') !important;
+}
+
+* {
+    font-family: 'Futura Hv BT';
+}
+
+body {
+    background-color: #1E201F !important;
+}
+
+/* --------------------------------FOOTER-------------------------- */
+.footer__bg {
+    background-color: #161817;
+}
+
+.footer__col h6 {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__col p {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer__col a {
+    text-decoration: none;
+}
+
+.website__logo {
+    background-color: #ECECEC;
+    color: rgba(255, 255, 255, 0.57);
+    opacity: 0.5;
+}
+
+.footer__col__img {
+    width: 100%;
+}
+
+.footer__col__img img {
+    width: 80%;
+    height: 111px;
+}
+
+.footer__button {
+    background: #9947E2;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer__col a:hover {
+    background: rgba(255, 255, 255, 0.87) !important;
+    color: #9947E2 !important;
+}
+
+.footer__col3 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.footer__col3 ul li a:hover {
+    color: #9947E2 !important;
+    background: none !important;
+}
+
+.footer__col3 ul li {
+    list-style-type: none;
+}
+
+.footer__col3 li:not(:last-child) {
+    padding-bottom: .5rem !important;
+}
+
+.footer__col3 ul {
+    padding-left: 0;
+}
+
+.footer__col3 h6 {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__social i {
+    color: rgba(255, 255, 255, 0.57);
+    font-size: 20px;
+}
+
+.footer__social i:hover {
+    color: #9947E2;
+}
+
+.footer__row__2 ul {
+    display: flex;
+    padding-left: 0;
+    gap: 1rem;
+}
+
+.footer__row__2 ul li {
+    list-style-type: none;
+}
+
+.footer__row__2 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.footer__row__2 {
+    color: rgba(255, 255, 255, 0.57);
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.57);
+}
+
+@media (min-width: 320px) and (max-width: 515px) {
+    .vr {
+        display: none;
+    }
+
+    .footer__row__2 ul {
+        color: rgba(255, 255, 255, 0.57);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: left; */
+    }
+
+    .footer__row__2 {
+        justify-content: left;
+    }
+
+    .footer__row__2 ul li p {
+        margin-top: 12px !important;
+    }
+}
+
+/* --------------------------------GET A QUOTE----------------------- */
+
+.section__heading h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.section__heading p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form__check {
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__11 {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__12 {
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__14 {
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__15 {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__13 {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__check__input[type=checkbox] {
+    border-radius: 0px !important;
+}
+
+.form__check__input:focus {
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form__check__input:checked {
+    background-color: white;
+    border-color: white;
+}
+
+.form__check__input {
+    background-color: #1e1d1d;
+    border: 1.5px solid rgba(255, 255, 255, 0.38);
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-image: url(/images/check.png);
+}
+
+.section__heading__2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.section__heading__2 span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #3531b1 !important;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form___select {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+    background: #161817;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-image: url(/images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.form___select:focus {
+    border-color: #161817;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form___control {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.57);
+    background-color: #161817;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.form-control:focus {
+    color: rgba(255, 255, 255, 0.57);
+    background-color: #161817;
+    border-color: #161817;
+    outline: 0;
+    box-shadow: none;
+}
+
+.section__heading__3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form___select {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.57);
+    background: #161817;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-image: url(/images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.form__button {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.form__btn__1 {
+    background: #9947E2;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-color: #9947E2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.form__btn__2 {
+    background: #4072EA;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border-color: #4072EA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+@media screen and (max-width: 992px) {
+    .form__check {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__11 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__12 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__13 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__14 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+
+    .form__check__15 {
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #575757;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.57);
+    }
+}
