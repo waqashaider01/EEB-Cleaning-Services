@@ -12,7 +12,11 @@ body {
 
 .dropdown_bg_clr {
     background: #161817 !important;
+    position: relative;
+    z-index: 100;
 }
+
+
 
 * {
     font-family: 'Futura Bk BT';
@@ -44,7 +48,7 @@ body {
     height: fit-content;
     position: absolute;
     top: 0;
-    right: -10px;
+    right: 0;
     font-family: 'Futura Md BT';
     font-style: normal;
     font-weight: 400;
@@ -61,6 +65,7 @@ body {
 
 .myNvabar {
     position: relative;
+    z-index: 1;
 }
 
 .aboutText {
