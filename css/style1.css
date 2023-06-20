@@ -21,7 +21,7 @@ body {
     background-size: contain;
     position: absolute;
     width: 100%;
-    height: 80%;
+    height: 70%;
     top: 0;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .location-input {
-    width: 60%;
+    width: 55%;
     height: 30px;
     padding: 30px 87px;
     border: 1px solid #ccc;
@@ -133,7 +133,7 @@ body {
 
 .location__icon {
     position: absolute;
-    left: 51%;
+    left: 53%;
     /* margin-right: 10px; */
     font-weight: 400;
     font-size: 18px;
@@ -614,8 +614,9 @@ hr {
 
 @media (min-width: 525px) and (max-width: 767px) {
     .search-container {
-        width: 80%;
+        width: 70%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: -10px auto;
@@ -647,5 +648,146 @@ hr {
 
     .search-input {
         padding: 30px 25px;
+    }
+
+    .search-input {
+        width: 100%;
+        height: 30px;
+        padding: 30px 50px;
+        border: 1px solid #ccc;
+        opacity: 0.8;
+        background-color: #1E201F;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .location-input {
+        width: 100%;
+        height: 30px;
+        padding: 30px 87px;
+        border: 1px solid #ccc;
+        background-color: #1E201F;
+        opacity: 0.8;
+        border-radius: 20px;
+        /* margin-right: 10px; */
+        position: relative;
+    }
+
+    .search-button {
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 35%;
+        top: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+        background: #9947E2;
+        border-radius: 15px;
+        transition: all .3s ease-in-out;
+    }
+
+    .location__icon {
+        position: absolute;
+        left: 10%;
+        top: 73%;
+        /* margin-right: 10px; */
+        font-weight: 400;
+        font-size: 18px;
+        /* line-height: 22px; */
+        color: rgba(255, 255, 255, 0.87);
+        z-index: 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 524px) {
+    .search-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: -10px auto;
+    }
+
+    .banner__1__content {
+        margin-top: 2rem;
+    }
+
+    .location__icon {
+        position: absolute;
+        left: 49%;
+    }
+
+    .banner__1__content h1 {
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 40px;
+        background: linear-gradient(180deg, #FC466B -48.19%, #5972F4 82.61%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .location-input {
+        padding: 30px 40px;
+    }
+
+    .search-input {
+        padding: 30px 25px;
+    }
+
+    .search-input {
+        width: 100%;
+        height: 30px;
+        padding: 30px 50px;
+        border: 1px solid #ccc;
+        opacity: 0.8;
+        background-color: #1E201F;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .location-input {
+        width: 100%;
+        height: 30px;
+        padding: 30px 87px;
+        border: 1px solid #ccc;
+        background-color: #1E201F;
+        opacity: 0.8;
+        border-radius: 20px;
+        /* margin-right: 10px; */
+        position: relative;
+    }
+
+    .search-button {
+        color: white;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 35%;
+        top: 11rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+        background: #9947E2;
+        border-radius: 15px;
+        transition: all .3s ease-in-out;
+    }
+
+    .location__icon {
+        position: absolute;
+        left: 15%;
+        top: 73%;
+        /* margin-right: 10px; */
+        font-weight: 400;
+        font-size: 18px;
+        /* line-height: 22px; */
+        color: rgba(255, 255, 255, 0.87);
+        z-index: 1;
     }
 }
